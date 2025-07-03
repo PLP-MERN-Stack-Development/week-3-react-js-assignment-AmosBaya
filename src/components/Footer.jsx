@@ -3,11 +3,12 @@ import React from "react";
 
 const Footer = ()=>{
     return (
-        <footer className="bg-gray-800 py-8 px-4">
-            <div className="max-w-5xl mx-auto py-4 px-3 sm:px-6 lg:px-6">
-                <p className="text-white text-md text-center">&copy; {new Date().getFullYear()} Assignment site. All rights reserved.</p>
+        <footer className="fixed bottom-0 left-0 w-full bg-gray-800 text-white z-50">
+            <div className="max-w-5xl mx-auto px-4 py-3 text-center text-sm">
+                <p className="text-white text-md text-center">Built with ❤️ using React and Tailwind CSS - manage your tasks and explore universities with ease.</p>
+                <p className="text-white text-md text-center">&copy; {new Date().getFullYear()} Amos Baya. All rights reserved.</p>
             </div>
-            <div className="max-w-5xl mx-auto py-4 px-3 sm:px-6 lg:px-6 flex flex-wrap flex-row justify-center items-center gap-3">
+            <div className="max-w-5xl mx-auto px-4 pb-4 flex flex-wrap justify-center items-center gap-4">
 
                <svg
                 xmlns="http://www.w3.org/2000/svg"
