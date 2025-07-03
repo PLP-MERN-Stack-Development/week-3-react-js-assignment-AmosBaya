@@ -1,12 +1,45 @@
-# React + Vite
+title: React Task & University Finder App
+description: >
+  A fun and minimalist React app that helps you manage tasks and search for universities — 
+  built using React, Tailwind CSS, and modern design principles.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+features:
+  - "📝 Add, filter, and delete tasks easily"
+  - "🎓 Search for universities around the world"
+  - "📱 Fully responsive layout using Tailwind CSS"
+  - "⚡ Clean and intuitive UI with reusable components"
 
-Currently, two official plugins are available:
+tech_stack:
+  - "⚛️ React (with React Router)"
+  - "🎨 Tailwind CSS"
+  - "🌐 REST API for university search"
+  - "🧠 Context API for theme switching"
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+setup:
+  clone: git clone this repo,
+  install:
+    - pnpm install
+    - npm install
+  run:
+    - pnpm dev
+    - npm run dev
+  browser_url: http://localhost:5173
 
-## Expanding the ESLint configuration
+folder_structure: |
+  src/
+  ├── components/
+  │   ├── Navbar.jsx
+  │   ├── Footer.jsx
+  │   └── Button.jsx
+  ├── pages/
+  │   ├── Home.jsx
+  │   ├── TaskManager.jsx
+  │   └── UniSearch.jsx
+  ├── App.jsx
+  └── main.jsx
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+author:
+  name: Amos Baya
+  github: https://github.com/AmosBaya
+
+license: MIT
